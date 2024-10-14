@@ -1,28 +1,17 @@
+@font-face{
+    font-family: "Vazir";
+    src:url(fonts/Vazir-Medium.ttf);
+}
 *{
     box-sizing: border-box;
 }
 body{
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-header {
-    background-color: #222;
-    padding: 20px;
-    text-align: center;
+    font-family:"Vazir";
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #4CAF50;
-    text-decoration: none;
+.navbar{
+    margin: 0px;
+    background-color: #B0BEC5;
 }
 
 section {
@@ -40,7 +29,10 @@ form {
 }
 
 form input, form textarea {
-    margin-bottom: 10px;
+    margin-bottom: 10px ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     padding: 10px;
     border: 1px solid #444;
     border-radius: 5px;
@@ -48,17 +40,29 @@ form input, form textarea {
     color: white;
 }
 
+form input{
+    width: 25%;
+}
 form button {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #4CAF50;
+    background-color: #43A047;
+    
     color: white;
     cursor: pointer;
+    width: 50%;
+    margin: auto;
+    transition-duration: 400ms;
 }
 
 form button:hover {
-    background-color: #45a049;
+    background-color:#1B5E20 ;
+    
+   
+
+
+
 }
 
 footer {
